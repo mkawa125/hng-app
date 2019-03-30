@@ -29,7 +29,6 @@
             background-color: #F7F5F5;
             margin-top: 10px;
             padding: 5px;
-            border-radius: 4px;
         }
         .social{
             list-style-type: none;
@@ -77,6 +76,14 @@
             border-right: 2px solid #E3E1E1;
             padding: 0 20px 0 0;
         }
+        .side-nav{
+            background-color: #E3E1E1;
+            font-size: small;
+            padding: 15px;
+            border-bottom-right-radius: 8px;
+            border-bottom-left-radius: 8px;
+            box-shadow: 0 2px 2px 0 #B9B9B9;
+        }
     </style>
 </head>
 <body>
@@ -86,9 +93,10 @@
         <div class="col-md-3" style="background-color: whitesmoke">
             <div class="side-nav">
                 <div class="image-body">
-                    <h4>Dahabu Saidi</h4>
                     <label for="image"></label>
                     <img src="../images/IMG_4538.jpg" id="image" class="image" alt="No image" >
+                    <h4><strong>Dahabu Saidi</strong></h4>
+                    <span style="color: #8A8A8A; font-style: italic">System Developer</span>
                 </div>
             </div>
             <ul class="links">
@@ -171,7 +179,7 @@
                     <div>
                         Dahabu Saidi online web page,  dahabusaidi@gmail.com
                     </div>
-                    <p>Dar es salaam, Tanzania</p>
+                    <p>P.O.BOX xxx Dar es salaam, +255 717495198 </p>
                     <a ><i class="fa fa-facebook"></i></a>
                     <a><i class="fa fa-twitter-square"></i></a>
                     <a><i class="fa fa-linkedin-square"></i></a>

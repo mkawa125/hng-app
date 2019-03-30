@@ -5,15 +5,11 @@
 .content{
 
 }
-.side-nav{
-    background-color: #E3E1E1;
-    font-size: small;
-    padding: 15px;
-}
+
 .image{
     border-radius: 360px;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
 }
 .image-body{
     text-align: center;
