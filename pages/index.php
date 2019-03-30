@@ -58,6 +58,7 @@
         .content{
             text-align: center;
             margin-top: 35px;
+            border-bottom: 1px solid #E3E1E1;
 
         }
         .head{
@@ -68,6 +69,13 @@
             margin-top: 40px;
             font-size: small;
             text-align: justify;
+        }
+        .main-page{
+            /*border-top: 2px solid #E3E1E1;*/
+        }
+        .main{
+            border-right: 2px solid #E3E1E1;
+            padding: 0 20px 0 0;
         }
     </style>
 </head>
@@ -118,7 +126,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 main-page">
             <div class="content">
                 <h4 class="head">Welcome to Dahabu saidi online web service</h4>
             </div>
@@ -142,6 +150,32 @@
                         Iam full stack develper based on PHP, Node.js, angular 4+, html, css, bootstrap,
                         Iam full stack develper based on PHP, Node.js, angular 4+, html, css, bootstrap,
                     </p>
+                </div>
+
+                <div class="col-md-10 offset-1">
+                    <p>
+                        I always like looking to my working codes
+                        I always like looking to my working codes
+                        I always like looking to my working codes
+                        I always like looking to my working codes
+                        I always like looking to my working codes
+                        I always like looking to my working codes
+                        I always like looking to my working codes
+                    </p>
+                </div>
+            </div>
+
+            <div class="row" style="padding: 5px; ">
+                <div class="col-md-12" style="background-color: #6D6D6D; color: white; text-align: center;
+                position: absolute; bottom: 0; font-size: small; padding: 10px">
+                    <div>
+                        Dahabu Saidi online web page,  dahabusaidi@gmail.com
+                    </div>
+                    <p>Dar es salaam, Tanzania</p>
+                    <a ><i class="fa fa-facebook"></i></a>
+                    <a><i class="fa fa-twitter-square"></i></a>
+                    <a><i class="fa fa-linkedin-square"></i></a>
+                    <a><i class="fa fa-instagram"></i></a>
                 </div>
             </div>
         </div>
