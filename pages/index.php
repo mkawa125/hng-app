@@ -13,6 +13,7 @@
     <title>HNG-Intern</title>
     <link type="text/css" rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="../styleSheets/index.css">
+    <link type="text/css" rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
     <script rel="script" type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
 
     <style>
@@ -34,6 +35,39 @@
             list-style-type: none;
             font-size: small;
             font-style: italic;
+            margin-top: 180px;
+        }
+        .social li{
+            margin-top: 15px;
+        }
+        .social li a{
+            list-style-type: none;
+            font-size: large;
+            font-style: italic;
+            margin-right: 15px;
+        }
+        .contacts{
+            font-size: small;
+            font-style: italic;
+            margin-top: 20px;
+            list-style-type: none;
+        }
+        .fa-github{
+            color: #1b1e21;
+        }
+        .content{
+            text-align: center;
+            margin-top: 35px;
+
+        }
+        .head{
+            font-weight: bold;
+            font-family: Roboto;
+        }
+        .content-body{
+            margin-top: 40px;
+            font-size: small;
+            text-align: justify;
         }
     </style>
 </head>
@@ -61,19 +95,54 @@
                 </li>
             </ul>
 
-            <ul class="social">
-                <li>social networks</li>
+            <ul class="contacts">
+                <li style="color: coral; font-size: 15px; margin-bottom: 5px">Contacts details</li>
                 <li>
-                    <a></a>
-                    <a></a>
-                    <a></a>
-                    <a></a>
+                    <strong>Email:</strong><span> dahabusaidi@gmail.com</span>
+                </li>
+                <li>
+                    <strong>Phone:</strong><span> +255 717495198</span>
+                </li>
+                <li>
+                    <strong>Blog:</strong><span> <a href="#">https://dahabu.pb.online/</a></span>
+                </li>
+            </ul>
+
+            <ul class="social">
+                <li >Social Networks</li>
+                <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
                 </li>
             </ul>
         </div>
         <div class="col-md-9">
             <div class="content">
+                <h4 class="head">Welcome to Dahabu saidi online web service</h4>
+            </div>
+            <div class="content-body">
+                <div class="col-md-10 offset-1">
+                    <p>
+                        Hello I am Dahabu saidi from Dar es salaam Tanzania
+                        Hello I am Dahabu saidi from Dar es salaam Tanzania
+                        Hello I am Dahabu saidi from Dar es salaam Tanzania
+                        Hello I am Dahabu saidi from Dar es salaam Tanzania
+                        Hello I am Dahabu saidi from Dar es salaam Tanzania
+                        Hello I am Dahabu saidi from Dar es salaam Tanzania
+                    </p>
+                </div>
 
+                <div class="col-md-10 offset-1">
+                    <p>
+                        Iam full stack develper based on PHP, Node.js, angular 4+, html, css, bootstrap,
+                        Iam full stack develper based on PHP, Node.js, angular 4+, html, css, bootstrap,
+                        Iam full stack develper based on PHP, Node.js, angular 4+, html, css, bootstrap,
+                        Iam full stack develper based on PHP, Node.js, angular 4+, html, css, bootstrap,
+                        Iam full stack develper based on PHP, Node.js, angular 4+, html, css, bootstrap,
+                    </p>
+                </div>
             </div>
         </div>
     </div>
